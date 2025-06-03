@@ -1,2 +1,4 @@
 # analise_de_variantes_mutacoes
-Descobrir qual codon do aminoácido está sofrendo mutação e em qual posição do nucleotídeo está havendo a mutação.
+Este software, desenvolvido em Python utilizando a biblioteca Biopython, realiza a análise de variantes genéticas a partir de alinhamentos múltiplos de sequências gênicas codificantes. A ferramenta tem o objetivo de identificar exatamente quais códons dentro do alinhamento múltiplo estão sofrendo mutações e qual a posição do nucleotídeo dentro desse códon está sofrendo alteração, se é na primeira, segunda ou terceira posição do códon.
+Isso permite avaliar de forma precisa o potencial impacto das mutações no nível proteico, uma vez que alterações em diferentes posições do códon podem resultar em mutações sinônimas, não sinônimas ou até neutras. O software percorre cada coluna do alinhamento, detecta onde há variabilidade entre as sequências e traduz a posição do alinhamento para a posição correspondente dentro do códon, fornecendo como saída um relatório indicando tanto o número do códon afetado quanto a posição específica do nucleotídeo dentro dele.
+
